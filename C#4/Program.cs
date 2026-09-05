@@ -14,6 +14,12 @@
         //    Console.WriteLine("Book title: " + title);
         //}
         #endregion
+        #region َQuestion 5 Function
+        //static void AddBonusPages(int pages)
+        //{
+        //    pages = pages + 50;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Question 1
@@ -29,6 +35,12 @@
             #endregion
             #region Question 4 Function call
             //PrintBookTitle("Clean Code");
+            #endregion
+            #region Question 5 Function call
+            //int pages = 400;
+            //AddBonusPages(pages);
+            //Console.WriteLine(pages);
+            ////int is a value type the method recieves a copy not the original value
             #endregion
 
         }
