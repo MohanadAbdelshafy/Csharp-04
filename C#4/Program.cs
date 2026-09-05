@@ -20,6 +20,12 @@
         //    pages = pages + 50;
         //}
         #endregion
+        #region Question 6 Function
+        //static void ApplyDiscount(double[] prices)
+        //{
+        //    prices[0] = prices[0] - 5;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Question 1
@@ -41,6 +47,12 @@
             //AddBonusPages(pages);
             //Console.WriteLine(pages);
             ////int is a value type the method recieves a copy not the original value
+            #endregion
+            #region Question 6 Function call
+            //double[] prices = { 25.5, 40.0 };
+            //ApplyDiscount(prices);
+            //Console.WriteLine(prices[0]);
+            ////Array is a refrence type the method recieves a refence to the same array
             #endregion
 
         }
