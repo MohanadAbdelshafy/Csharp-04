@@ -26,6 +26,14 @@
         //    prices[0] = prices[0] - 5;
         //}
         #endregion
+        #region Question 7 Function
+        //static void AddBonusPagesByRef(ref int pages)
+        //{
+        //    pages = pages + 50;
+        //}
+
+        #endregion
+
         static void Main(string[] args)
         {
             #region Question 1
@@ -54,7 +62,11 @@
             //Console.WriteLine(prices[0]);
             ////Array is a refrence type the method recieves a refence to the same array
             #endregion
-
+            #region Question 7 Function call
+            //int pages = 400;
+            //AddBonusPagesByRef(ref pages);
+            //Console.WriteLine(pages);
+            #endregion
         }
     }
 }
