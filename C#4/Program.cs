@@ -40,6 +40,18 @@
         //}
 
         #endregion
+        #region Question 9 Function
+        //static bool TryGetPrice(string title, out double price)
+        //{
+        //    if (title == "Clean Code")
+        //    {
+        //        price = 25.5;
+        //        return true;
+        //    }
+        //    price = 0;
+        //    return false;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Question 1
@@ -78,7 +90,13 @@
             //ReplaceArray(ref prices);
             //Console.WriteLine(prices.Length);
             #endregion
-
+            #region Question 9 Function call
+            //double price;
+            //if (TryGetPrice("Clean Code", out price))
+            //{
+            //    Console.WriteLine(price);
+            //}
+            #endregion
         }
     }
 }
