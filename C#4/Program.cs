@@ -52,6 +52,13 @@
         //    return false;
         //}
         #endregion
+        #region Question 10 Function
+        //static void PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine($"Title: {title}");
+        //    Console.WriteLine($"Pages: {pages}");
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region Question 1
@@ -96,6 +103,10 @@
             //{
             //    Console.WriteLine(price);
             //}
+            #endregion
+            #region Question 10 Function call
+            //PrintBookInfo("Abdelshafy");
+            //PrintBookInfo("Abdelshafy",100);
             #endregion
         }
     }
