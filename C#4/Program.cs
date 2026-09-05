@@ -33,7 +33,13 @@
         //}
 
         #endregion
+        #region Question 8 Function 
+        //static void ReplaceArray(ref double[] prices)
+        //{
+        //    prices = new double[] {10.0,12.5,15.0};
+        //}
 
+        #endregion
         static void Main(string[] args)
         {
             #region Question 1
@@ -67,6 +73,12 @@
             //AddBonusPagesByRef(ref pages);
             //Console.WriteLine(pages);
             #endregion
+            #region Question 8 function call
+            //double[] prices = {25.5,40.0};
+            //ReplaceArray(ref prices);
+            //Console.WriteLine(prices.Length);
+            #endregion
+
         }
     }
 }
